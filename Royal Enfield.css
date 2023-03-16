@@ -1,0 +1,602 @@
+body{
+    background-color: #e5e3e3;
+}
+#Header{
+    background-color: black;
+}
+
+.nav{
+    width: 100%;
+    z-index: 1000;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+#dropcontainer{
+ height:30px;
+ width: 160px;
+ position: relative;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+
+
+#drop1{
+     height: auto;
+     width: 160px;
+     background-color: black;
+     border-radius: 2px;
+     position: absolute;
+     left: 0 ;
+     display: none;
+     z-index: 1000;
+     
+}
+#drop1 a{
+    color: white;
+    display: block;
+    text-align: center;
+     padding: 5px;
+     font-size: 14px;
+     text-decoration: none;
+}
+#drop1 a:hover{
+     color: white;
+}
+
+#dropcontainer:hover #drop1{
+    display: block;
+
+}
+#dropcontainer1:hover #drop1{
+    display: block;
+
+}
+#dropcontainer2:hover #drop1{
+    display: block;
+
+}
+#dropcontainer:hover{
+    color: red;
+}
+
+
+
+ /* section 1  */
+
+ .navbar1 {
+    display: flex;
+    padding-top: 10px;
+ justify-content: space-between;
+  height: 70px;
+    /* justify-content: space-evenly; */
+}
+#navbar2 ul li a:hover{
+    color: red;
+
+}
+ #logo{
+    width: 250px;
+    height: 40px; 
+    background: transparent;
+}
+
+#navbar2{
+    padding-top: 10px;
+    margin-left: 130px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+#navbar2 ul{
+display: flex;
+}
+#navbar2 li{
+    list-style: none;
+    padding-left: 20px;
+   
+}
+#navbar2 li a{
+    text-decoration: none;
+    color: white;
+}
+#search{
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+  
+}
+#Login{
+    /* color: white; */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+#flag{
+    width: 30px;
+    height: 20px;
+    border-radius: 2px;
+}   
+#Em{
+    color: white;
+    list-style: none;  
+}
+
+#Option{
+    padding-top: 10px;
+    font-size: 14px;
+    color: white;
+    margin-left: 100px;
+    font-weight: 600; 
+}
+#Option ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+#Option ul li a{
+    color: white;
+}
+
+.fa.fa-angle-down{
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+} 
+
+
+
+ /* section 2  */
+#super_meteor{
+    position: absolute;
+    width: 100%;
+    margin-left: -112px;
+}
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 72%;
+    color: white;
+  }
+  .centered a button{
+    border-color: transparent;
+    height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  .centered a button:hover{
+    padding-right: 20px;
+    color: red;
+    border-radius: 5px;
+  }
+ 
+
+  /* section 3 */
+
+  #Slider{
+    padding-top: 594px;
+  }
+
+
+  /* section 4 */
+ #Card{
+    display: flex;
+ }
+
+.card_p{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    top: 106px;
+    text-align: justify;
+    padding-left: 10px;
+}
+.card_last{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    top: 75px;
+    text-align: justify;
+    padding-left: 10px;
+}
+.Img_size{
+    height: 240px;
+    width: 100%;
+    
+}
+
+.Img_size:hover{
+   
+    transform: scale(1.1);
+
+}
+
+#nav2 li a:hover{
+    color: red;
+}
+#Motor_div{
+    display: flex;
+    background-color: black;
+    height: 50px;   
+}
+#Motor{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+   padding-left: -50px;
+    color: white;
+    padding-top: 10px;
+  position: absolute;
+}
+#Div_ul{
+    position: absolute;
+    left: 130px;
+}
+#nav2{
+    display: flex;
+    background-color: black;
+    height: 45px;
+   
+}
+#Bullet:hover{
+    color: red;
+}
+#nav2 li{
+    list-style: none;
+    padding-top: 15px;
+    font-size: 14px;
+    padding-left: 10px;
+    /* font-weight: bold; */
+}
+#nav2 li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+
+}
+
+/* section 5 */
+#section5{
+    position: relative;
+}
+.Explore{
+    position: absolute;
+    top: 48%;    
+    left: 4%; 
+  }
+.Explore a button{
+    height: 23px;
+    font-size: 10px;
+    font-weight: bold;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+}
+#button:hover{
+   color: black;
+    background-color: white;
+}
+/* section 6 */
+#Rider_Mania:hover{
+    color: red;
+}
+#Event_div{
+    display: flex;
+    background-color: black;
+    height: 45px;   
+}
+#ul_div{
+    position: absolute;
+    left: 81px;
+}
+#nav3{
+    display: flex;
+    background-color: black;
+    height: 45px;
+}
+#nav3 li{
+    padding-top: 15px;
+    font-size: 14px;
+   
+}
+#nav3 li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+#Events{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+   padding-left: -40px;
+    color: white;
+    padding-top: 10px;
+  position: absolute;
+}
+/* section 7 */
+#section7{
+    position: relative;
+}
+.View_Gallery{
+    position: absolute;
+    top: 85%;    
+    left: 75%; 
+}
+.View_Gallery a button{
+    height: 23px;
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    
+}
+
+/* section 8 */
+
+#Apparel{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+   padding-left: -40px;
+    color: white;
+    padding-top: 10px;
+  position: absolute;
+}
+#Div_ul1{
+    position: absolute;
+    left: 90px;
+}
+/* section 9 */
+#section9{
+    position: relative;
+}
+.Know{
+    position: absolute;
+    top: 85%;    
+    left: 75%; 
+}
+.Know a button{
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    
+}
+#button1:hover{
+    color: black;
+     background-color: white;
+ }
+ /* section 10 */
+
+ #Accessories{
+    font-size: 16px;  
+    font-weight: bold;
+    text-decoration: none;
+  margin-left: -20px;
+    color: white;
+    padding-top: 10px;
+  position: absolute;
+ }
+ #Div_ul2{
+    position: absolute;
+    left: 120px;
+ }
+ /* section 11 */
+#section11{
+    position: relative;
+}
+
+ /* section 12 */
+
+ #Locate{
+    font-size: 16px; 
+    font-weight: bold;
+    text-decoration: none;
+   padding-left: -40px;
+    color: white;
+    padding-top: 10px;
+  position: absolute;
+ }
+ #Div_ul2{
+    position: absolute;
+    left: 105px;
+ }
+
+ /* section 13  */
+
+ #section13{
+    position: relative;
+ }
+ #button2:hover{
+    color: black;
+     background-color: white;
+ }
+ .Find{
+    position: absolute;
+    top: 55%;    
+    left: 8%; 
+}
+.Find a button{
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    
+}
+#You{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    width: 200px;
+    font-size: 19px;
+    top: -150%;    
+    left: 0%; 
+}
+
+ /* section 13  */
+
+#Popular{
+display: flex;
+background-color: black;
+padding-top: 10px;
+padding-left: 45%
+}
+#Popular ul li{
+    list-style: none;
+}
+ /* section 14  */
+
+#Display{
+    display: flex;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.893);
+   
+}
+#Display li{
+    list-style: none;
+}
+#Display li img{
+    padding-left: 200px;
+    padding-top: 15px;
+    height: 70%;
+}
+#H41{
+    position: absolute;
+    color: white;
+    padding-top: 95px;
+    padding-left: 190px;
+    font-size: 12px;
+}
+
+#H42{
+    position: absolute;
+    color: white;
+    padding-top: 95px;
+    padding-left: 490px;
+    font-size: 12px;
+}
+
+#H43{
+    position: absolute;
+    color: white;
+    padding-top: 95px;
+    padding-left: 810px;
+    font-size: 12px;
+}
+
+#H44{
+    position: absolute;
+    color: white;
+    padding-top: 95px;
+    padding-left: 1110px;
+    font-size: 12px;
+}
+#Display >h4:hover{
+    color: red;
+}
+
+
+ /* section 15  */
+
+#Socal{
+display: flex;
+padding-left: 1210px;
+
+
+}
+#Socal h4{
+    font-size: 14px;
+    padding-top: 15px;
+}
+#Socal_Icon{
+    padding-left: 10px;
+}
+#Socal_Icon a i{
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: black;
+}
+#YT:hover{
+    color: red;
+}
+#Insta:hover{
+    color: red;
+}
+#FB:hover{
+color: blue;
+}
+#Tw:hover{
+    color: blue;
+
+}
+  /* footer */
+
+
+h6{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    font-size: 14px;
+}
+.container > div{
+    width: 100%;
+    height: 250px;
+}
+.list{
+    list-style: none;
+    padding-left: 0px;
+}
+.list li a:hover{
+    color: red;
+}
+.list li{
+    padding-top: 10px;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+
+#CopyWrite{
+    position: absolute;
+    display: flex;
+    width: 520px;
+    list-style: none;    
+    font-size: 10px;
+    color: black;  
+}
+#CopyWrite>li{
+    padding-left: 5px;   
+}
+#nav4{
+    margin-left: 1128px;
+    display: flex;
+    list-style: none;
+    font-size: 10px;
+}
+#nav4> li> a{
+    text-decoration: none;
+    color: black;
+}
+#nav4 li{
+    padding-left: 5px;
+}

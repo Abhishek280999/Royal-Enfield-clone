@@ -1,0 +1,6 @@
+formlebal{Username}+input:text+lebal{Password}+input:Password+button{Submit}
+
+grid div into 12 window
+1 2 3 4 5 6 7 8 9 10 11 12 
+offset--emety space
+col-md-4 offset-4 ---1 2 3 4 blank 4 space for center
